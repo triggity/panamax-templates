@@ -1,0 +1,23 @@
+---
+name: Cloud9 IDE 
+description: Cllud9 IDE environment for testing based on image alanct/cloud9
+keywords: cloud9
+recommended: 
+type: Default
+documentation: |
+  Cloud9 IDE
+  =======================
+  
+  runs from working directory
+
+images:
+- category: Cloud9
+  name: alanct/cloud9
+  source: alanct/cloud9
+  description: 
+  type: Default
+  expose: []
+  ports:
+  - host_port: '3131'
+    container_port: '3131'
+  volumes: []
