@@ -1,0 +1,23 @@
+---
+name: NPMJS server
+description: npmserver based off of terinjokes/docker-npmjs
+keywords: docker, npm
+recommended: 
+type: Default
+documentation: |
+  Docker NPMjs
+  =======================
+  
+  runs from working directory
+
+images:
+- category: NPM
+  name: terinjokes/docker-npmjs 
+  source: terinjokes/docker-npmjs
+  description: 
+  type: Default
+  expose: []
+  ports:
+  - host_port: '3131'
+    container_port: '3131'
+  volumes: []
