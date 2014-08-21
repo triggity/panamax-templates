@@ -12,8 +12,8 @@ documentation: |
 
 images:
 - category: NPM
-  name: terinjokes/docker-npmjs 
-  source: terinjokes/docker-npmjs
+  name: terinjokes/npmjs 
+  source: terinjokes/npmjs
   description: 
   type: Default
   expose: []
